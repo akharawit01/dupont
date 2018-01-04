@@ -1,64 +1,67 @@
-/*
-    Theme Name: Bootstrap
-    Theme URI: https://getbootstrap.com/docs/4.0/
-    Author: Akharawit Aryakom(Not)
-    Email: akharawitbuzzwoo@gmail.com
-    Description: 
-    Version: 1.0
-
-    CSS DIRECTORY
-        1. =GLOBAL
-        2. =PRIMARY
-        3. =HEADER
-        4. =SIDEBAR
-        5. =FOOTER
+/* Theme Name: Bootstrap Theme URI: https://getbootstrap.com/docs/4.0/ Author: Akharawit Aryakom(Not) Email: akharawitbuzzwoo@gmail.com Description:  Version: 1.0
+ CSS DIRECTORY 1. =GLOBAL 2. =PRIMARY 3. =HEADER 4. =SIDEBAR 5. =FOOTER
 */
 /* ===GLOBAL=== */
-body {
-  background: #c3c5c5;
-  color: #2e2c2d; }
+/* line 19, app.scss */
+body { background: #c3c5c5; color: #2e2c2d; }
+
+/* line 24, app.scss */
+a { color: #555353; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; }
+
+/* line 30, app.scss */
+.container { position: relative; }
+
+/* line 34, app.scss */
+.pt-6 { padding-top: 7rem !important; }
 
 /* ===PRIMARY=== */
-.picture_frame {
-  border: 1rem solid #FFF;
-  -webkit-box-shadow: 0px 0px 4px 0px #272727;
-  -moz-box-shadow: 0px 0px 4px 0px #272727;
-  box-shadow: 0px 0px 4px 0px #272727; }
+/* line 39, app.scss */
+.picture_frame { border: 1rem solid #FFF; -webkit-box-shadow: 0px 0px 4px 0px #272727; box-shadow: 0px 0px 4px 0px #272727; }
 
 /* ===HEADER=== */
-.fixed-lg {
-  font-size: .7rem;
-  left: inherit;
-  right: 10%;
-  top: 0; }
+/* line 47, app.scss */
+.fixed-lg { font-size: .9rem; left: inherit; right: 10%; top: 0; }
 
-a.lg {
-  background: #2e2c2c;
-  color: #FFF;
-  padding: .1rem 1rem;
-  -webkit-box-shadow: -2px 2px 1px 0px rgba(107, 107, 107, 0.3);
-  -moz-box-shadow: -2px 2px 1px 0px rgba(107, 107, 107, 0.3);
-  box-shadow: -2px 2px 1px 0px rgba(107, 107, 107, 0.3); }
-  a.lg.active {
-    background: #FFF;
-    color: #2e2c2c;
-    cursor: context-menu;
-    -webkit-box-shadow: -2px 2px 1px 0px #2e2c2c;
-    -moz-box-shadow: -2px 2px 1px 0px #2e2c2c;
-    box-shadow: -2px 2px 1px 0px #2e2c2c; }
+/* line 54, app.scss */
+a.lg { background: #2e2c2c; color: #FFF; padding: .1rem 1rem; -webkit-box-shadow: -2px 2px 1px 0px rgba(107, 107, 107, 0.3); box-shadow: -2px 2px 1px 0px rgba(107, 107, 107, 0.3); }
+/* line 63, app.scss */
+a.lg.active { background: #FFF; color: #2e2c2c; cursor: default; -webkit-box-shadow: -2px 2px 1px 0px #2e2c2c; box-shadow: -2px 2px 1px 0px #2e2c2c; }
 
-.bd-r > li {
-  position: relative; }
-  .bd-r > li.list-inline-item:not(:last-child) {
-    margin-right: 1.2rem; }
-  .bd-r > li:not(:first-child)::before {
-    color: #FFF;
-    content: "|";
-    left: -15px;
-    position: absolute;
-    top: 0px; }
+/* line 74, app.scss */
+.bd-r > li { position: relative; }
+/* line 77, app.scss */
+.bd-r > li.list-inline-item:not(:last-child) { margin-right: 1.2rem; }
+/* line 81, app.scss */
+.bd-r > li:not(:first-child)::before { color: #FFF; content: "|"; left: -15px; position: absolute; top: 0px; }
+
+/* line 93, app.scss */
+.menu-main > li { display: block; float: left; margin-right: 0; position: relative; width: 50%; }
+/* line 100, app.scss */
+.menu-main > li:nth-child(odd) { text-align: right; }
+/* line 103, app.scss */
+.menu-main > li:nth-child(odd):not(:last-child)::before { content: " "; right: 0; position: absolute; top: 9px; display: block; background: white; width: 1px; height: 2.5rem; }
+/* line 115, app.scss */
+.menu-main > li:last-child { width: 100%; text-align: center; }
+/* line 120, app.scss */
+.menu-main > li > a { display: block; padding: 1rem; }
+
+/* line 127, app.scss */
+.top-menu { font-size: 1rem; text-transform: uppercase; margin: .6rem; }
+/* line 132, app.scss */
+.top-menu > li { padding: .3rem 1.5rem; width: 10rem; }
+/* line 136, app.scss */
+.top-menu > li > a { display: block; }
+
+/* line 142, app.scss */
+img.logo { border-right: 2px solid #FFF; }
 
 /* ===SIDEBAR=== */
+/* ===MAIN BOX=== */
+/* line 149, app.scss */
+.box-main { position: relative; }
+/* line 152, app.scss */
+.box-main::before { content: " "; right: 0; position: absolute; top: 0; display: block; background: #c3c5c5; width: 0; height: 0; border-bottom: 65px solid #cacaca; border-right: 65px solid transparent; }
+
 /* ===FOOTER=== */
 
 /*# sourceMappingURL=app.css.map */

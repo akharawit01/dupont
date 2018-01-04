@@ -15,13 +15,24 @@
 */
 
 /* ===GLOBAL=== */
-html {
-
-}
 
 body {
     background: #c3c5c5;
     color: #2e2c2d;
+}
+
+a {
+    color: #555353;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.container {
+    position: relative;
+}
+
+.pt-6 {
+    padding-top: 7rem !important;
 }
 
 /* ===PRIMARY=== */
@@ -34,7 +45,7 @@ body {
 
 /* ===HEADER=== */
 .fixed-lg {
-    font-size: .7rem;
+    font-size: .9rem;
     left: inherit;
     right: 10%;
     top: 0;
@@ -52,7 +63,7 @@ a.lg {
     &.active {
         background: #FFF;
         color: #2e2c2c;
-        cursor: context-menu;
+        cursor: default;
         -webkit-box-shadow: -2px 2px 1px 0px #2e2c2c;
         -moz-box-shadow: -2px 2px 1px 0px #2e2c2c;
         box-shadow: -2px 2px 1px 0px #2e2c2c;
@@ -78,6 +89,78 @@ a.lg {
     
 }
 
+.menu-main {
+    &>li {
+        display: block;
+        float: left;
+        margin-right: 0;
+        position: relative;
+        width: 50%;
+
+        &:nth-child(odd) {
+            text-align: right;
+
+            &:not(:last-child)::before {
+                content: " ";
+                right: 0;
+                position: absolute;
+                top: 9px;
+                display: block;
+                background: white;
+                width: 1px;
+                height: 2.5rem;
+            }
+        }
+
+        &:last-child {
+            width: 100%;
+            text-align: center;
+        }
+
+        &>a {
+            display: block;
+            padding: 1rem;
+        }
+    }
+}
+
+.top-menu {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: .6rem;
+
+    &>li {
+        padding: .3rem 1.5rem;
+        width: 10rem;
+
+        &>a {
+            display: block
+        }
+    }
+}
+
+img.logo {
+    border-right: 2px solid #FFF;
+}
+
 /* ===SIDEBAR=== */
+
+/* ===MAIN BOX=== */
+.box-main {
+    position: relative;
+
+    &::before {
+        content: " ";
+        right: 0;
+        position: absolute;
+        top: 0;
+        display: block;
+        background: #c3c5c5;
+        width: 0;
+        height: 0;
+        border-bottom: 65px solid #cacaca;
+        border-right: 65px solid transparent;
+    }
+}
 
 /* ===FOOTER=== */
