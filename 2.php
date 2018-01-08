@@ -5,19 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Frédéric DUPONT - Photographe</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/pgwslider/pgwslider.css">
-    <link rel="stylesheet" href="assets/css/app.css">
+    <?php include "share/link.php" ?>
 </head>
 <body>
     <?php include "share/header.php" ?>
-    <div class="container pt-6">
-        <div class="p-4 mt-3 box-main_ori">
+    <div class="container">
+        <div class="p-4 box-main_ori">
             <div class="loader"></div>
             <div class="row d-flex align-items-stretch md-rs_row" id="showLoad">
                 <div class="col-lg-3 mb-3">
                     <div class="bg-pho_clr py-3" style="height: 100%">
                         <ul class="phototxt-list">
+                            <li class="mt-3">+ recent work
+                                <ul class="pl-4">
+                                    <li><a href="#" class="active">Burma</a></li>
+                                </ul>
+                            </li>
+                            <li class="mt-3">+ recent work
+                                <ul class="pl-4">
+                                    <li><a href="#">Burma</a></li>
+                                </ul>
+                            </li>
+                            <li class="mt-3">+ recent work
+                                <ul class="pl-4">
+                                    <li><a href="#">Burma</a></li>
+                                </ul>
+                            </li>
+                            <li class="mt-3">+ recent work
+                                <ul class="pl-4">
+                                    <li><a href="#">Burma</a></li>
+                                </ul>
+                            </li>
+                            <li class="mt-3">+ recent work
+                                <ul class="pl-4">
+                                    <li><a href="#">Burma</a></li>
+                                </ul>
+                            </li>
                             <li class="mt-3">+ recent work
                                 <ul class="pl-4">
                                     <li><a href="#">Burma</a></li>
@@ -68,11 +91,7 @@
         <?php include "share/footer.php" ?>
     </div>
     
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="node_modules/pgwslider/pgwslider.js"></script>
-    <script src="assets/js/app.js"></script>
+    <?php include "share/script.php" ?>
     <script>
         $(document).ready(function() {
             var pgwSlider = $('.pgwSlider').pgwSlider();
@@ -85,7 +104,6 @@
                 $('.loader').hide();
                 $('#showLoad').css({'visibility': 'visible'});
             }, 600);
-
         });
     </script>
 </body>

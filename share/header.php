@@ -12,7 +12,7 @@
     <a href="7.php">biographie</a>
 </div>
 
-<header class="position-fixed fixed-top py-3">
+<header class="py-3">
     <div class="container">
         <ul class="list-inline d-flex">
             <li class="list-inline-item"><a href="index.php"><img src="images/logo.jpg" alt="Logo" class="mx-auto d-block logo"></a></li>
@@ -25,7 +25,9 @@
                     <li class="list-inline-item"><a href="5.php">voyages</a></li>
                 </ul>
             </li>
-            <li class="list-inline-item btn-toggle"><a href="#menu" class="menu-link" onclick="openNav()">&#9776;</a></li>
+            <li class="list-inline-item btn-toggle align-items-center">
+                <a href="#menu" class="menu-link icon-ham" onclick="openNav()">&#9776; <span>MENU</span></a>
+            </li>
         </ul>
     </div>
 </header>

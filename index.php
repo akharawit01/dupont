@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Frédéric DUPONT - Photographe</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/app.css">
+    <?php include "share/link.php" ?>
 </head>
 <body>
     <ul class="list-inline fixed-top fixed-lg">
         <li class="list-inline-item"><a href="#" class="lg active">Fr</a></li>
         <li class="list-inline-item"><a href="#" class="lg">En</a></li>
     </ul>
-    <img src="images/logo.jpg" alt="Logo" class="mx-auto d-block home-logo hidden-lg-up mt-5">
+    <img src="images/logo.jpg" alt="Logo" class="mx-auto home-logo mt-5">
     <div class="container pt-6">
         <div class="row">
             <div class="col-lg-7">
-                <img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt="" class="img-fluid picture_frame mb-4">
+                <!-- <img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt="" class="img-fluid picture_frame mb-4"> -->
+                <ul class="rslides mb-4">
+                    <li><img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt=""></li>
+                    <li><img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt=""></li>
+                    <li><img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt=""></li>
+                </ul>
                 <p class="font-italic text-center">“Behind the veil of Frederic Dupont’s photographs, the silent stream of stars.”</p>
                 <p class="font-weight-bold font-italic text-right">christian Bobin</p>
             </div>
@@ -44,9 +48,11 @@
         </footer>
     </div>
     
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="assets/js/app.js"></script>
+    <?php include "share/script.php" ?>
+    <script>
+        $(document).ready(function() {
+            $(".rslides").responsiveSlides();
+        });
+    </script>
 </body>
 </html>

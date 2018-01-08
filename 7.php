@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Frédéric DUPONT - Photographe</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/app.css">
+    <?php include "share/link.php" ?>
 </head>
 <body>
     <?php include "share/header.php" ?>
 
-    <div class="container pt-6">
+    <div class="container">
         <div class="row d-flex align-items-stretch box-main">
             <div class="col-md-4">
                 <div class="txt-contact"></div>
@@ -61,9 +60,6 @@
         <?php include "share/footer.php" ?>
     </div>
     
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <?php include "share/script.php" ?>
 </body>
 </html>
