@@ -16,7 +16,6 @@
     <div class="container pt-6">
         <div class="row">
             <div class="col-lg-7">
-                <!-- <img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt="" class="img-fluid picture_frame mb-4"> -->
                 <ul class="rslides mb-4">
                     <li><img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt=""></li>
                     <li><img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt=""></li>
