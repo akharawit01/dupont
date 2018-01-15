@@ -13,14 +13,14 @@
     <div class="container">
         <div class="box-main bg-light p-4 mt-3">
             <div class="max-scroll">
-                <a href="#" class="row mb-4 blog">
-                    <div class="col-lg-4">
+                <a href="#" class="row mb-4 blog active">
+                    <div class="col-lg-3">
                         <img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-9">
                         <div class="card card-left">
                             <div class="card-body">
-                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h6>
                                 <p class="card-text">Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras pretium.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus</p>
                                 <p class="card-text"><small class="text-muted">18 Dec 2017 | biographie</small></p>
                             </div>
@@ -28,13 +28,13 @@
                     </div>
                 </a>
                 <a href="#" class="row mb-4 blog">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-9">
                         <div class="card card-left">
                             <div class="card-body">
-                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h6>
                                 <p class="card-text">Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras pretium.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus</p>
                                 <p class="card-text"><small class="text-muted">18 Dec 2017 | biographie</small></p>
                             </div>
@@ -42,13 +42,13 @@
                     </div>
                 </a>
                 <a href="#" class="row mb-4 blog">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-9">
                         <div class="card card-left">
                             <div class="card-body">
-                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h6>
                                 <p class="card-text">Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras pretium.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus</p>
                                 <p class="card-text"><small class="text-muted">18 Dec 2017 | biographie</small></p>
                             </div>
@@ -56,13 +56,27 @@
                     </div>
                 </a>
                 <a href="#" class="row mb-4 blog">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-9">
                         <div class="card card-left">
                             <div class="card-body">
-                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
+                                <h6 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h6>
+                                <p class="card-text">Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras pretium.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus</p>
+                                <p class="card-text"><small class="text-muted">18 Dec 2017 | biographie</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="row mb-4 blog">
+                    <div class="col-lg-3">
+                        <img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="card card-left">
+                            <div class="card-body">
+                                <h6 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h6>
                                 <p class="card-text">Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras pretium.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus</p>
                                 <p class="card-text"><small class="text-muted">18 Dec 2017 | biographie</small></p>
                             </div>

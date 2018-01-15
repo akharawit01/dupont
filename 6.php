@@ -11,12 +11,14 @@
     <?php include "share/header.php" ?>
 
     <div class="container">
-        <div class="box-main bg-light max-scroll p-4 mt-3">
-            <div class="text-center"><img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt="" class="img-fluid picture_frame" style="width: 50%"></div>
-            <div class="card-body">
-                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
-                <p class="card-text">Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras pretium.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus</p>
-                <p class="card-text"><small class="text-muted">18 Dec 2017 | biographie</small></p>
+        <div class="box-main bg-light p-4 mt-3">
+            <div class="max-scroll">
+                <div class="text-center"><img src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg" alt="" class="img-fluid picture_frame" style="width: 50%"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
+                    <p class="card-text">Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus, eu consectetur neque elit quis nunc. Cras pretium.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin, tellus vitae condimentum egestas, libero dolor auctor tellus</p>
+                    <p class="card-text"><small class="text-muted">18 Dec 2017 | biographie</small></p>
+                </div>
             </div>
         </div>
         

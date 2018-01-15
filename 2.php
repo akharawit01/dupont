@@ -10,7 +10,7 @@
 <body>
     <?php include "share/header.php" ?>
     <div class="container">
-        <div class="p-4 box-main_ori">
+        <div class="box-main_ori">
             <div class="loader"></div>
             <div class="row d-flex align-items-stretch md-rs_row" id="showLoad">
                 <div class="col-lg-3 mb-3">
@@ -73,7 +73,6 @@
                     <ul class="pgwSlider">
                         <li><img src="http://static.pgwjs.com/img/pg/slider/paris.jpg"></li>
                         <li><img src="http://static.pgwjs.com/img/pg/slider/montreal.jpg"></li>
-                        <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg"></li>
                         <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg"></li>
                         <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg"></li>
                         <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg"></li>

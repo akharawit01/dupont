@@ -12,7 +12,7 @@
     <a href="7.php">biographie</a>
 </div>
 
-<header class="py-3">
+<header class="pt-5">
     <div class="container">
         <ul class="list-inline d-flex">
             <li class="list-inline-item"><a href="index.php"><img src="images/logo.jpg" alt="Logo" class="mx-auto d-block logo"></a></li>

@@ -25,7 +25,7 @@
                 <p class="font-weight-bold font-italic text-right">christian Bobin</p>
             </div>
             <div class="col-lg-5">
-                <img src="images/logo.jpg" alt="Logo" class="mx-auto d-block home-logo hidden-md-down">
+                <img src="images/logo.jpg" alt="Logo" class="mx-auto d-block home-logo hid-md-dw">
                 <div class="d-flex align-items-center" style="height: 100%">
                     <ul class="text-uppercase menu-main">
                         <li><a href="2.php">photographies</a></li>
