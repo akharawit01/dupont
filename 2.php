@@ -75,6 +75,9 @@
                         <li><img src="images/1.jpg" data-description="Eiffel Tower and Champ de Mars"></li>
                         <li><img src="images/2.jpg" data-description="Eiffel"></li>
                         <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg" data-description="Eiffel Name"></li>
+                        <li><img src="images/1.jpg" data-description="Eiffel Tower and Champ de Mars"></li>
+                        <li><img src="images/2.jpg" data-description="Eiffel"></li>
+                        <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg" data-description="Eiffel Name"></li>
                     </ul>
                 </div>
             </div>

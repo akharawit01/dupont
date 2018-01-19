@@ -137,7 +137,7 @@
                     pgwSlider.plugin.find('.ps-list').css({ height: height + 'px' });
                     $('.bg-pho_clr').css({ height: height + 'px' });
                 }
-                pgwSlider.plugin.find('.ps-list > li').css({ width: elementWidth + '%' });
+                pgwSlider.plugin.find('.ps-list > li').css({ width: 16.5 + '%' });
 
                 // Adjust main container
                 if (typeof animate != 'undefined' && animate && pgwSlider.config.maxHeight == null) {
@@ -440,11 +440,10 @@
             var elementContainer = pgwSlider.plugin.find('.ps-current > ul');
 
             if ($(window).width() >= 1024) {
-                if ((element.id - 1) <= (pgwSlider.data.length - 5)) {
+                if ((element.id - 1) <= (pgwSlider.data.length - 6)) {
                     let scrTop = -79 * (element.id - 1)
                     $('.ps-list>li').css('top', scrTop + 'px')
-                }else if (element.id == pgwSlider.data.length && element.id > 4) {
-
+                }else if (element.id == pgwSlider.data.length && element.id > 6) {
                     let scrTop = -79 * (element.id - 5)
                     $('.ps-list>li').css('top', scrTop + 'px')
                 }
