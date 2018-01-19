@@ -32,7 +32,7 @@
                         <li><a href="3.php">expositions</a></li>
                         <li><a href="4.php">publications</a></li>
                         <li><a href="5.php">voyages</a></li>
-                        <li><a href="7.php">biographie</a></li>
+                        <li><a href="6.php">biographie</a></li>
                     </ul>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                 <li class="list-inline-item"><a href="#"><img src="images/logo-facebook.png" alt=""></a></li>
                 <li class="list-inline-item"><a href="#"><img src="images/logo-insta.png" alt=""></a></li>
                 <li class="list-inline-item"><a href="#"><img src="images/logo-youtube.png" alt=""></a></li>
-                <li class="list-inline-item"><a href="#" class="text-uppercase">contact</a></li>
+                <li class="list-inline-item"><a href="7.php" class="text-uppercase">contact</a></li>
             </ul>
         </footer>
     </div>

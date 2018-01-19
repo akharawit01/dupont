@@ -21,7 +21,7 @@
                     <li class="list-inline-item"><a href="2.php">photographies</a></li>
                     <li class="list-inline-item"><a href="3.php">expositions</a></li>
                     <li class="list-inline-item"><a href="4.php">publications</a></li><br>
-                    <li class="list-inline-item"><a href="7.php">biographie</a></li>
+                    <li class="list-inline-item"><a href="6.php">biographie</a></li>
                     <li class="list-inline-item"><a href="5.php">voyages</a></li>
                 </ul>
             </li>

@@ -70,18 +70,11 @@
                     </div>
                 </div>
                 <div class="col-lg-9 pb-3">
+                    <span class="pgwName">ABC_36</span>
                     <ul class="pgwSlider">
-                        <li><img src="http://static.pgwjs.com/img/pg/slider/paris.jpg"></li>
-                        <li><img src="http://static.pgwjs.com/img/pg/slider/montreal.jpg"></li>
-                        <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg"></li>
-                        <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg"></li>
-                        <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg"></li>
-                        <li><img src="http://static.pgwjs.com/img/pg/slider/paris.jpg"></li>
-                        <li><img src="http://static.pgwjs.com/img/pg/slider/montreal.jpg"></li>
-                        <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg"></li>
-                        <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg"></li>
-                        <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg"></li>
-                        <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg"></li>
+                        <li><img src="images/1.jpg" data-description="Eiffel Tower and Champ de Mars"></li>
+                        <li><img src="images/2.jpg" data-description="Eiffel"></li>
+                        <li><img src="http://static.pgwjs.com/img/pg/slider/shanghai.jpg" data-description="Eiffel Name"></li>
                     </ul>
                 </div>
             </div>

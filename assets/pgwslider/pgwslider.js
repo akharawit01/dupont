@@ -69,7 +69,7 @@
         // Get element
         var getElement = function(obj) {
             var element = {};
-
+            
             // Get link
             var elementLink = obj.find('a').attr('href');
             if ((typeof elementLink != 'undefined') && (elementLink != '')) {
@@ -390,19 +390,27 @@
                 elementText += element.description;
             }
 
-            if (elementText != '') {
-                if (element.link) {
-                    elementText = '<a href="' + element.link + '"' + (element.linkTarget ? ' target="' + element.linkTarget + '"' : '') + '>' + elementText + '</a>';
-                }
-
-                if (typeof pgwSlider.plugin.find('.ps-caption').fadeIn == 'function') {
-                    pgwSlider.plugin.find('.ps-caption').html(elementText);
-                    pgwSlider.plugin.find('.ps-caption').fadeIn(pgwSlider.config.transitionDuration / 2);
-                } else {
-                    pgwSlider.plugin.find('.ps-caption').html(elementText);
-                    pgwSlider.plugin.find('.ps-caption').show();
-                }
+            if (elementText) {
+                $('body').find('.pgwName').html(elementText);
+            }else {
+                $('body').find('.pgwName').html('None');
             }
+
+            // if (elementText != '') {
+            //     if (element.link) {
+            //         elementText = '<a href="' + element.link + '"' + (element.linkTarget ? ' target="' + element.linkTarget + '"' : '') + '>' + elementText + '</a>';
+            //     }
+
+            //     // if (typeof pgwSlider.plugin.find('.ps-caption').fadeIn == 'function') {
+            //     //     pgwSlider.plugin.find('.ps-caption').html(elementText);
+            //     //     pgwSlider.plugin.find('.ps-caption').fadeIn(pgwSlider.config.transitionDuration / 2);
+            //     // } else {
+            //     //     pgwSlider.plugin.find('.ps-caption').html(elementText);
+            //     //     pgwSlider.plugin.find('.ps-caption').show();
+            //     // }
+                
+                
+            // }
 
             // Slider controls
             if (pgwSlider.config.displayControls) {
@@ -435,7 +443,8 @@
                 if ((element.id - 1) <= (pgwSlider.data.length - 5)) {
                     let scrTop = -79 * (element.id - 1)
                     $('.ps-list>li').css('top', scrTop + 'px')
-                }else if (element.id == pgwSlider.data.length) {
+                }else if (element.id == pgwSlider.data.length && element.id > 4) {
+
                     let scrTop = -79 * (element.id - 5)
                     $('.ps-list>li').css('top', scrTop + 'px')
                 }

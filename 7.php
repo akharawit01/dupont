@@ -18,7 +18,7 @@
             </div>
             <div class="col-md-8 form-contact p-5">
                 <h2 class="text-center text-uppercase">contact</h2>
-                <form class="pt-6 mb-5">
+                <form class="pt-6 mb-2">
                     <div class="form-row">
                         <div class="col-lg-12 form-group">
                             <label for="Title" class="pr-3">Title: </label>
@@ -52,7 +52,7 @@
                             <textarea class="form-control" id="message" rows="3"></textarea>
                         </div>
                     </div>
-                    <div class="text-right"><button type="submit" class="btn btn-primary">OK</button></div>
+                    <div class="text-right"><button type="submit" class="btn btn-primary bg-transparent ">OK</button></div>
                 </form>
             </div>
         </div>

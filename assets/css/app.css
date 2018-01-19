@@ -52,7 +52,8 @@ a {
   border-radius: 0; }
 
 .bg-transparent {
-  background: transparent !important; }
+  background: transparent !important;
+  border: transparent; }
 
 ul.none-style {
   list-style-type: none; }
@@ -116,6 +117,9 @@ ul.none-style {
   max-width: 544px;
   max-height: 360px;
   margin: 0 auto; }
+
+.shw-md-dw {
+  display: none; }
 
 /* ===HEADER=== */
 header {
@@ -291,6 +295,10 @@ a.menu-link {
     height: 100%;
     z-index: 9; }
 
+.ls-max-h {
+  max-height: 360px;
+  overflow: auto; }
+
 .blog {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s; }
@@ -345,6 +353,7 @@ a.menu-link {
   font-size: 0.7rem; }
 
 .pgwSlider .ps-current {
+  background: #FFF;
   float: right;
   width: 76%;
   overflow: hidden;
@@ -355,6 +364,12 @@ a.menu-link {
   -webkit-box-shadow: 0px 0px 4px 0px #272727;
   -moz-box-shadow: 0px 0px 4px 0px #272727;
   box-shadow: 0px 0px 4px 0px #272727; }
+
+.pgwName {
+  position: absolute;
+  top: -15px;
+  right: 15px;
+  font-size: .6rem; }
 
 /* ===FOOTER=== */
 .hovereffect {
@@ -438,6 +453,9 @@ a.menu-link {
 
   .hid-md-dw {
     display: none !important; }
+
+  .shw-md-dw {
+    display: block !important; }
 
   .top-menu {
     display: none; }
