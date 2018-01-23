@@ -42,11 +42,12 @@
 }
 
 .pgwSlider .ps-current img {
-    max-width: 100%;
-    min-width: 100%;
+    top: 0;
+    width: auto;
     height: auto;
     display: block;
-    transition: margin-top 250ms linear;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
 }
 
 .pgwSlider .ps-caption {
@@ -170,6 +171,7 @@ ul.pgwSlider > li img,
     left: 0;
     top: 45%;
     cursor: pointer;
+    z-index: 9999;
 }
 
 .pgwSlider .ps-current .ps-next {
@@ -184,6 +186,7 @@ ul.pgwSlider > li img,
     right: 0;
     top: 45%;
     cursor: pointer;
+    z-index: 9999;
 }
 
 /*

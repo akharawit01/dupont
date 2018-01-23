@@ -209,7 +209,6 @@
 
         // Set size class
         var setSizeClass = function() {
-
             if ($(window).width() <= 1023) {
                 pgwSlider.plugin.addClass('narrow').removeClass('wide');
             } else {
@@ -448,7 +447,6 @@
                     $('.ps-list>li').css('top', scrTop + 'px')
                 }
             }
-            
 
             // Update list items
             pgwSlider.plugin.find('.ps-list > li').css('opacity', '0.6');
@@ -592,6 +590,7 @@
                     finishElement(element);
                 });
             }
+            
 
             // Update current id
             pgwSlider.currentSlide = element.id;
@@ -601,6 +600,20 @@
 
         // Display the current element
         var displayElement = function(elementId, apiController, direction) {
+            setTimeout(() => {
+                let mainHeight = $('.ps-current').height()
+                let mainWdith = $('.ps-current').width()
+                // set a
+                $('.ps-current ul>li>a').css('height', mainHeight)
+                
+                let imgHeight = $('.ps-current .elt_' + elementId + '>a').children('img').height()
+                let imgWidth = $('.ps-current .elt_' + elementId + '>a').children('img').width()
+                if (imgHeight < imgWidth) {
+                    $('.ps-current .elt_' + elementId + '>a').children('img').css({'width': '100%','height': 'auto','position': 'absolute','top': '50%','transform': 'translateY(-50%)'})
+                }else {
+                    $('.ps-current .elt_' + elementId + '>a').children('img').css({'height': '100%','width': 'auto','margin': '0 auto'})
+                }
+            }, 200);
 
             if (elementId == pgwSlider.currentSlide) {
                 return false;
@@ -639,6 +652,7 @@
             if (typeof apiController != 'undefined' && pgwSlider.config.autoSlide) {
                 activateInterval();
             }
+            
 
             return true;
         };

@@ -91,8 +91,8 @@
         $(document).ready(function() {
             var pgwSlider = $('.pgwSlider').pgwSlider();
             pgwSlider.reload({
-                intervalDuration : 8000,
                 displayControls: true
+                // autoSlide: false
             });
 
             setTimeout(() => { 
